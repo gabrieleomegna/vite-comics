@@ -1,13 +1,17 @@
 <script>
+import ListComix from './ListComix.vue';
 export default {
     name : 'AppMain',
+    components : {
+        ListComix,
+    }
 }
 </script>
 
 <template lang="">
     <main>
         <div class="container">
-            <h1> Content goes here</h1>
+            <ListComix/>
         </div>
     </main>
 </template>
