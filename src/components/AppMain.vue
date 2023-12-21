@@ -1,6 +1,6 @@
 <script>
 export default {
-    
+    name : 'AppMain',
 }
 </script>
 
@@ -13,9 +13,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../style/partials/variables' as *;
     main {
-        padding: 2rem;
+        padding: 2rem 0;
         background-color: rgb(28, 28, 28);
-        color: white;
+        color: $main-content-color;
     }
 </style>

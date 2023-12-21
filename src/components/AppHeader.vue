@@ -1,6 +1,6 @@
 <script>
 export default {
-    
+    name : 'AppHeader',
 }
 </script>
 
@@ -11,7 +11,7 @@ export default {
             Immagine 
             </div>
             <nav>
-                <ul class="hdr-nav-bar">
+                <ul class="hdr-nav-bar-list">
                     <li>Characters</li>
                     <li>Comics</li>
                     <li>Movies</li>
@@ -35,8 +35,8 @@ export default {
         padding: 2rem;
         div.container {
         @include flex(row, space-between, center);
-        .hdr-nav-bar{
-            list-style: none;
+        .hdr-nav-bar-list{
+            list-style-type: none;
             @include flex(row, space-around, center);
             
             li {
